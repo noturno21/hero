@@ -1,0 +1,12 @@
+unit Hero.View.Styles.Colors;
+
+interface
+
+const
+  COLOR_BACKGROUND = $00ffffff;
+  COLOR_BACKGORUND_TOP = $00a4584c;
+  COLOR_BACKGORUND_TOP_SUBMENU = $00fcfaf9;
+
+implementation
+
+end.

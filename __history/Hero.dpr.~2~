@@ -1,0 +1,15 @@
+program Hero;
+
+uses
+  Vcl.Forms,
+  Hero.View.Main in 'src\View\Hero.View.Main.pas' {Form1},
+  Hero.View.Styles.Colors in 'src\View\Styles\Hero.View.Styles.Colors.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.

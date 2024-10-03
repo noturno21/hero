@@ -4,10 +4,19 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.Buttons;
 
 type
-  TForm1 = class(TForm)
+  TFormPrincipal = class(TForm)
+    pnlMain: TPanel;
+    pnlMenu: TPanel;
+    pnlFull: TPanel;
+    pnlTop: TPanel;
+    pnlPrincipal: TPanel;
+    pnlLogo: TPanel;
+    SpeedButton1: TSpeedButton;
+    SpeedButton2: TSpeedButton;
+    procedure FormCreate(Sender: TObject);
   private
     { Private declarations }
   public
@@ -15,10 +24,23 @@ type
   end;
 
 var
-  Form1: TForm1;
+  FormPrincipal: TFormPrincipal;
 
 implementation
 
 {$R *.dfm}
+
+uses Hero.View.Styles.Colors;
+
+procedure TFormPrincipal.FormCreate(Sender: TObject);
+begin
+  pnlPrincipal.Color := COLOR_BACKGROUND;
+  pnlTop.Color := COLOR_BACKGORUND_TOP;
+  pnlLogo.Color := COLOR_BACKGORUND_DESTACK ;
+  pnlMenu.Color := COLOR_BACKGROUND_MENU ;
+
+  Self.Font.Color := FONT_COLOR;
+  Self.Font.Size := FONT_H6;
+end;
 
 end.

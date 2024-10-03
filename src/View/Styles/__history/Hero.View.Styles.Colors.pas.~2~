@@ -1,0 +1,10 @@
+unit Hero.View.Styles.Colors;
+
+interface
+
+const
+  COLOR_BACKGROUND = $00ffffff;
+
+implementation
+
+end.

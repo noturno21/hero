@@ -2,9 +2,11 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2024/04/26 15:13:03.000.086,=C:\Users\Emanuel\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2024/09/26 00:01:07.337,=C:\Users\Emanuel\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2024/09/26 00:03:57.679,C:\Users\Emanuel\Projetos\docker\hero\src\View\Hero.View.Main.pas=C:\Users\Emanuel\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2024/09/26 00:03:57.679,C:\Users\Emanuel\Projetos\docker\hero\src\View\Hero.View.Main.dfm=C:\Users\Emanuel\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2024/09/26 00:04:18.330,C:\Users\Emanuel\Projetos\docker\hero\Hero.dproj=C:\Users\Emanuel\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2024/09/26 00:01:07.000.337,=C:\Users\Emanuel\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/09/26 00:03:57.000.679,C:\Users\Emanuel\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Emanuel\Projetos\docker\hero\src\View\Hero.View.Main.dfm</Transaction>
+    <Transaction>2024/09/26 00:03:57.000.679,C:\Users\Emanuel\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Emanuel\Projetos\docker\hero\src\View\Hero.View.Main.pas</Transaction>
+    <Transaction>2024/09/26 00:04:18.000.330,C:\Users\Emanuel\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Emanuel\Projetos\docker\hero\Hero.dproj</Transaction>
+    <Transaction>2024/10/01 15:58:59.923,=C:\Users\Emanuel\Projetos\docker\hero\Unit1.pas</Transaction>
+    <Transaction>2024/10/01 16:00:31.330,C:\Users\Emanuel\Projetos\docker\hero\src\View\Styles\Hero.View.Styles.Colors.pas=C:\Users\Emanuel\Projetos\docker\hero\Unit1.pas</Transaction>
   </Transactions>
 </BorlandProject>

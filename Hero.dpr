@@ -2,13 +2,14 @@ program Hero;
 
 uses
   Vcl.Forms,
-  Hero.View.Main in 'src\View\Hero.View.Main.pas' {Form1};
+  Hero.View.Main in 'src\View\Hero.View.Main.pas' {FormPrincipal},
+  Hero.View.Styles.Colors in 'src\View\Styles\Hero.View.Styles.Colors.pas';
 
 {$R *.res}
 
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TFormPrincipal, FormPrincipal);
   Application.Run;
 end.
