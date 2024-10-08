@@ -3,8 +3,17 @@ unit Hero.View.Main;
 interface
 
 uses
-  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.Buttons;
+  Winapi.Windows,
+  Winapi.Messages,
+  System.SysUtils,
+  System.Variants,
+  System.Classes,
+  Vcl.Graphics,
+  Vcl.Controls,
+  Vcl.Forms,
+  Vcl.Dialogs,
+  Vcl.ExtCtrls,
+  Vcl.Buttons;
 
 type
   TFormPrincipal = class(TForm)
@@ -18,6 +27,7 @@ type
     SpeedButton2: TSpeedButton;
     procedure FormCreate(Sender: TObject);
   private
+    procedure ApplyStyle;
     { Private declarations }
   public
     { Public declarations }
@@ -30,15 +40,25 @@ implementation
 
 {$R *.dfm}
 
-uses Hero.View.Styles.Colors;
+uses
+  Router4D,
+  Hero.View.Styles.Colors,
+  Hero.View.Pages.Principal;
 
 procedure TFormPrincipal.FormCreate(Sender: TObject);
 begin
+  ApplyStyle;
+
+  TRouter4D.Render<TPagePrincipal>.SetElement(pnlPrincipal, pnlMain);
+
+end;
+
+procedure TFormPrincipal.ApplyStyle;
+begin
   pnlPrincipal.Color := COLOR_BACKGROUND;
   pnlTop.Color := COLOR_BACKGORUND_TOP;
-  pnlLogo.Color := COLOR_BACKGORUND_DESTACK ;
-  pnlMenu.Color := COLOR_BACKGROUND_MENU ;
-
+  pnlLogo.Color := COLOR_BACKGORUND_DESTACK;
+  pnlMenu.Color := COLOR_BACKGROUND_MENU;
   Self.Font.Color := FONT_COLOR;
   Self.Font.Size := FONT_H6;
 end;

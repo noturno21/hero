@@ -8,5 +8,13 @@
     <Transaction>2024/09/26 00:04:18.000.330,C:\Users\Emanuel\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Emanuel\Projetos\docker\hero\Hero.dproj</Transaction>
     <Transaction>2024/10/01 15:58:59.923,=C:\Users\Emanuel\Projetos\docker\hero\Unit1.pas</Transaction>
     <Transaction>2024/10/01 16:00:31.330,C:\Users\Emanuel\Projetos\docker\hero\src\View\Styles\Hero.View.Styles.Colors.pas=C:\Users\Emanuel\Projetos\docker\hero\Unit1.pas</Transaction>
+    <Transaction>2024/10/03 15:08:03.628,=C:\Users\Emanuel\Projetos\docker\hero\Unit1.pas</Transaction>
+    <Transaction>2024/10/03 15:09:21.481,C:\Users\Emanuel\Projetos\docker\hero\src\View\Pages\Hero.View.Pages.Principal.pas=C:\Users\Emanuel\Projetos\docker\hero\Unit1.pas</Transaction>
+    <Transaction>2024/10/03 15:09:21.481,C:\Users\Emanuel\Projetos\docker\hero\src\View\Pages\Hero.View.Pages.Principal.dfm=C:\Users\Emanuel\Projetos\docker\hero\Unit1.dfm</Transaction>
+    <Transaction>2024/10/03 15:16:41.586,=C:\Users\Emanuel\Projetos\docker\hero\Unit1.pas</Transaction>
+    <Transaction>2024/10/03 15:17:14.448,C:\Users\Emanuel\Projetos\docker\hero\src\View\Pages\Hero.View.Pages.Usuarios.dfm=C:\Users\Emanuel\Projetos\docker\hero\Unit1.dfm</Transaction>
+    <Transaction>2024/10/03 15:17:14.448,C:\Users\Emanuel\Projetos\docker\hero\src\View\Pages\Hero.View.Pages.Usuarios.pas=C:\Users\Emanuel\Projetos\docker\hero\Unit1.pas</Transaction>
+    <Transaction>2024/10/03 15:31:28.193,=C:\Users\Emanuel\Projetos\docker\hero\Unit1.pas</Transaction>
+    <Transaction>2024/10/03 15:32:24.354,C:\Users\Emanuel\Projetos\docker\hero\src\View\Router\Hero.View.Routers.pas=C:\Users\Emanuel\Projetos\docker\hero\Unit1.pas</Transaction>
   </Transactions>
 </BorlandProject>
