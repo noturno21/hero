@@ -26,7 +26,7 @@ constructor TRouters.Create;
 begin
   TRouter4D
   .Switch
-    .Router('Pincipal', TPagePrincipal)
+    .Router('Principal', TPagePrincipal)
     .Router('Usuarios',TPageUsuarios)
 end;
 

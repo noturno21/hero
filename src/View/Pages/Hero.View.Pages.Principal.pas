@@ -20,6 +20,7 @@ type
   TPagePrincipal = class(TForm, iRouter4DComponent)
     Panel1: TPanel;
     Label1: TLabel;
+    procedure FormCreate(Sender: TObject);
   private
     { Private declarations }
   public
@@ -35,7 +36,15 @@ implementation
 
 {$R *.dfm}
 
+uses
+Hero.View.Styles.Colors;
+
 { TPagePrincipal }
+
+procedure TPagePrincipal.FormCreate(Sender: TObject);
+begin
+  Panel1.Color := COLOR_BACKGROUND;
+end;
 
 function TPagePrincipal.Render: TForm;
 begin

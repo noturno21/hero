@@ -22,10 +22,6 @@ object FormPrincipal: TFormPrincipal
     BevelOuter = bvNone
     ParentBackground = False
     TabOrder = 0
-    ExplicitLeft = 184
-    ExplicitTop = 144
-    ExplicitWidth = 185
-    ExplicitHeight = 41
     object pnlMenu: TPanel
       Left = 0
       Top = 0
@@ -43,6 +39,7 @@ object FormPrincipal: TFormPrincipal
         Align = alTop
         Caption = 'USU'#193'RIOS'
         Flat = True
+        OnClick = SpeedButton1Click
         ExplicitTop = 65
       end
       object SpeedButton2: TSpeedButton
@@ -53,6 +50,7 @@ object FormPrincipal: TFormPrincipal
         Align = alTop
         Caption = 'PRINCIPAL'
         Flat = True
+        OnClick = SpeedButton2Click
       end
       object pnlLogo: TPanel
         Left = 0
@@ -73,10 +71,6 @@ object FormPrincipal: TFormPrincipal
       BevelOuter = bvNone
       ParentBackground = False
       TabOrder = 1
-      ExplicitLeft = 224
-      ExplicitTop = 200
-      ExplicitWidth = 185
-      ExplicitHeight = 41
       object pnlTop: TPanel
         Left = 0
         Top = 0
@@ -86,9 +80,6 @@ object FormPrincipal: TFormPrincipal
         BevelOuter = bvNone
         ParentBackground = False
         TabOrder = 0
-        ExplicitLeft = 176
-        ExplicitTop = 264
-        ExplicitWidth = 185
       end
       object pnlPrincipal: TPanel
         Left = 0
@@ -99,10 +90,6 @@ object FormPrincipal: TFormPrincipal
         BevelOuter = bvNone
         ParentBackground = False
         TabOrder = 1
-        ExplicitLeft = 176
-        ExplicitTop = 200
-        ExplicitWidth = 185
-        ExplicitHeight = 41
       end
     end
   end

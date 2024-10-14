@@ -26,6 +26,8 @@ type
     SpeedButton1: TSpeedButton;
     SpeedButton2: TSpeedButton;
     procedure FormCreate(Sender: TObject);
+    procedure SpeedButton2Click(Sender: TObject);
+    procedure SpeedButton1Click(Sender: TObject);
   private
     procedure ApplyStyle;
     { Private declarations }
@@ -51,6 +53,16 @@ begin
 
   TRouter4D.Render<TPagePrincipal>.SetElement(pnlPrincipal, pnlMain);
 
+end;
+
+procedure TFormPrincipal.SpeedButton1Click(Sender: TObject);
+begin
+  TRouter4D.Link.&To('Usuarios');
+end;
+
+procedure TFormPrincipal.SpeedButton2Click(Sender: TObject);
+begin
+  TRouter4D.Link.&To('Principal');
 end;
 
 procedure TFormPrincipal.ApplyStyle;

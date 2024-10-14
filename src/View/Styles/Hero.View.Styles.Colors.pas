@@ -16,6 +16,9 @@ const
   FONT_H4 = 16;
   FONT_H5 = 14;
   FONT_H6 = 12;
+  FONT_H7 = 10;
+  FONT_H8 =  8;
+  FONT_H9 =  6;
 
 implementation
 
