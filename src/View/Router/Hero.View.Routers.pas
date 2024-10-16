@@ -18,7 +18,8 @@ implementation
 uses
   Router4D,
   Hero.View.Pages.Principal,
-  Hero.View.Pages.Usuarios;
+  Hero.View.Pages.Usuarios,
+  Hero.View.Pages.Usuarios1;
 
 { TRouters }
 
@@ -27,7 +28,8 @@ begin
   TRouter4D
   .Switch
     .Router('Principal', TPagePrincipal)
-    .Router('Usuarios',TPageUsuarios)
+    //.Router('Usuarios',TPageUsuarios)
+    .Router('Usuario', TPageUsuarios1)
 end;
 
 destructor TRouters.Destroy;

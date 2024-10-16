@@ -29,10 +29,11 @@ type
     procedure SpeedButton2Click(Sender: TObject);
     procedure SpeedButton1Click(Sender: TObject);
   private
-    procedure ApplyStyle;
+
     { Private declarations }
   public
     { Public declarations }
+    procedure ApplyStyle;
   end;
 
 var
@@ -57,7 +58,8 @@ end;
 
 procedure TFormPrincipal.SpeedButton1Click(Sender: TObject);
 begin
-  TRouter4D.Link.&To('Usuarios');
+//  TRouter4D.Link.&To('Usuarios');
+  TRouter4D.Link.&To('Usuario');
 end;
 
 procedure TFormPrincipal.SpeedButton2Click(Sender: TObject);

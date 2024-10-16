@@ -1,0 +1,19 @@
+program Hero;
+
+uses
+  Vcl.Forms,
+  Hero.View.Main in 'src\View\Hero.View.Main.pas' {FormPrincipal},
+  Hero.View.Styles.Colors in 'src\View\Styles\Hero.View.Styles.Colors.pas',
+  Hero.View.Pages.Principal in 'src\View\Pages\Hero.View.Pages.Principal.pas' {PagePrincipal},
+  Hero.View.Pages.Usuarios in 'src\View\Pages\Hero.View.Pages.Usuarios.pas' {PageUsuarios},
+  Hero.View.Routers in 'src\View\Router\Hero.View.Routers.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  ReportMemoryLeaksOnShutdown := True;
+  Application.CreateForm(TFormPrincipal, FormPrincipal);
+  Application.Run;
+end.
