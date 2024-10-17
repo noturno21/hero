@@ -1,0 +1,15 @@
+inherited FormTemplates1: TFormTemplates1
+  Caption = 'FormTemplates1'
+  PixelsPerInch = 96
+  TextHeight = 15
+  inherited Panel1: TPanel
+    inherited Panel2: TPanel
+      inherited Label1: TLabel
+        Width = 34
+        Height = 15
+        ExplicitWidth = 34
+        ExplicitHeight = 15
+      end
+    end
+  end
+end

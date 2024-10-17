@@ -20,8 +20,8 @@ type
     Panel1: TPanel;
     Panel2: TPanel;
     Panel3: TPanel;
-    Panel4: TPanel;
     Label1: TLabel;
+    Edit1: TEdit;
     procedure FormCreate(Sender: TObject);
   private
     { Private declarations }
@@ -51,11 +51,12 @@ begin
   Panel1.Color := COLOR_BACKGROUND;
   Panel2.Color := COLOR_C1;
   Panel3.Color := COLOR_BACKGROUND;
-  Panel4.Color := COLOR_C1;
+  //Panel4.Color := COLOR_C1;
 
-  Label1.Font.Size := FONT_H5;
-  Label1.Font.Size := FONT_COLOR3;
-  Label1.Font.Name := 'Segoe UI';
+ // Label1.Font.Size := FONT_H5;
+ // Label1.Font.Size := FONT_COLOR3;
+ // Label1.Font.Name := 'Segoe UI';
+
 
 end;
 

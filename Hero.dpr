@@ -8,7 +8,8 @@ uses
   Hero.View.Pages.Usuarios in 'src\View\Pages\Hero.View.Pages.Usuarios.pas' {PageUsuarios},
   Hero.View.Routers in 'src\View\Router\Hero.View.Routers.pas',
   Hero.View.Pages.Form.Template in 'src\View\Pages\Hero.View.Pages.Form.Template.pas' {FormTemplates},
-  Hero.View.Pages.Usuarios1 in 'src\View\Pages\Hero.View.Pages.Usuarios1.pas' {PageUsuarios1};
+  Hero.View.Pages.Usuarios1 in 'src\View\Pages\Hero.View.Pages.Usuarios1.pas' {PageUsuarios1},
+  Hero.View.Pages.User in 'src\View\Pages\Hero.View.Pages.User.pas' {PageUser};
 
 {$R *.res}
 
@@ -19,5 +20,6 @@ begin
   Application.CreateForm(TFormPrincipal, FormPrincipal);
   Application.CreateForm(TFormTemplates, FormTemplates);
   Application.CreateForm(TPageUsuarios1, PageUsuarios1);
+  Application.CreateForm(TPageUser, PageUser);
   Application.Run;
 end.

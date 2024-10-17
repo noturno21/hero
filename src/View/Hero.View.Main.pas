@@ -25,9 +25,11 @@ type
     pnlLogo: TPanel;
     SpeedButton1: TSpeedButton;
     SpeedButton2: TSpeedButton;
+    SpeedButton3: TSpeedButton;
     procedure FormCreate(Sender: TObject);
     procedure SpeedButton2Click(Sender: TObject);
     procedure SpeedButton1Click(Sender: TObject);
+    procedure SpeedButton3Click(Sender: TObject);
   private
 
     { Private declarations }
@@ -58,13 +60,18 @@ end;
 
 procedure TFormPrincipal.SpeedButton1Click(Sender: TObject);
 begin
-//  TRouter4D.Link.&To('Usuarios');
+  // TRouter4D.Link.&To('Usuarios');
   TRouter4D.Link.&To('Usuario');
 end;
 
 procedure TFormPrincipal.SpeedButton2Click(Sender: TObject);
 begin
   TRouter4D.Link.&To('Principal');
+end;
+
+procedure TFormPrincipal.SpeedButton3Click(Sender: TObject);
+begin
+  TRouter4D.Link.&To('User');
 end;
 
 procedure TFormPrincipal.ApplyStyle;

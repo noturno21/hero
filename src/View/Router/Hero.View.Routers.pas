@@ -19,7 +19,8 @@ uses
   Router4D,
   Hero.View.Pages.Principal,
   Hero.View.Pages.Usuarios,
-  Hero.View.Pages.Usuarios1;
+  Hero.View.Pages.Usuarios1,
+  Hero.View.Pages.User;
 
 { TRouters }
 
@@ -30,6 +31,7 @@ begin
     .Router('Principal', TPagePrincipal)
     //.Router('Usuarios',TPageUsuarios)
     .Router('Usuario', TPageUsuarios1)
+    .Router('User', TPageUser) ;
 end;
 
 destructor TRouters.Destroy;
