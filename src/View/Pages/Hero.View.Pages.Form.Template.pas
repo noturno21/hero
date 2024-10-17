@@ -13,7 +13,8 @@ uses
   Vcl.Forms,
   Vcl.Dialogs,
   Vcl.ExtCtrls,
-  Router4D.Interfaces, Vcl.StdCtrls;
+  Router4D.Interfaces,
+  Vcl.StdCtrls;
 
 type
   TFormTemplates = class(TForm, iRouter4DComponent)
@@ -32,6 +33,8 @@ type
     procedure Unrender ;
 
   end;
+
+
 
 var
   FormTemplates: TFormTemplates;
