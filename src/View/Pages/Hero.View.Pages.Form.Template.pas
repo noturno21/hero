@@ -13,13 +13,15 @@ uses
   Vcl.Forms,
   Vcl.Dialogs,
   Vcl.ExtCtrls,
-  Router4D.Interfaces;
+  Router4D.Interfaces, Vcl.StdCtrls;
 
 type
   TFormTemplates = class(TForm, iRouter4DComponent)
     Panel1: TPanel;
     Panel2: TPanel;
     Panel3: TPanel;
+    Panel4: TPanel;
+    Label1: TLabel;
     procedure FormCreate(Sender: TObject);
   private
     { Private declarations }
@@ -49,6 +51,12 @@ begin
   Panel1.Color := COLOR_BACKGROUND;
   Panel2.Color := COLOR_C1;
   Panel3.Color := COLOR_BACKGROUND;
+  Panel4.Color := COLOR_C1;
+
+  Label1.Font.Size := FONT_H5;
+  Label1.Font.Size := FONT_COLOR3;
+  Label1.Font.Name := 'Segoe UI';
+
 end;
 
 procedure TFormTemplates.FormCreate(Sender: TObject);

@@ -13,7 +13,7 @@ uses
   Vcl.Forms,
   Vcl.Dialogs,
   Hero.View.Pages.Form.Template,
-  Vcl.ExtCtrls;
+  Vcl.ExtCtrls, Vcl.StdCtrls;
 
 type
   TPageUsuarios1 = class(TFormTemplates)
